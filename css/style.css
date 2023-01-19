@@ -2,8 +2,49 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  .container{
+}
+
+.container {
     max-width: 1170px;
-    margin: 0 auto;
-  }
+    margin: 0 auto; 
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-grow: 1;
+    color: white;
+}
+
+
+.box {
+    min-height: 40px;
+    line-height: 40px;
+    background-color: #006cfa;
+    text-align: center;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.title-2{
+    color: black;
+}
+
+#space-white {
+    margin-top: 20px;
+}
+  
+
+.green-box{
+    min-height: 40px;
+    line-height: 40px;
+    background-color: #00e165;
+    color: white;
+    text-align: center;
+    border: 1px solid #006cfa;
+    margin: 7px; 
+}
+
